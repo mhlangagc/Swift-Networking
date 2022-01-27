@@ -33,20 +33,9 @@ class HomeViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        viewModel.delegate = self
-//        fetchBitcoinData()
-//        layoutView()
-        loopThroughArray()
-    }
-    
-    func loopThroughArray() {
-        var vehiclesArray = [Vehicle(name: "VW", type: "Hatchback"),
-                             Vehicle(name: "Suzuki", type: "Scooter")]
-        
-        vehiclesArray = vehiclesArray.sorted(by: { $0.name < $1.name })
-        
-        print(vehiclesArray)
-        
+        viewModel.delegate = self
+        fetchBitcoinData()
+        layoutView()
     }
     
     func layoutView() {
