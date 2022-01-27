@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47027A8C276A1F45004D1D18 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47027A8B276A1F45004D1D18 /* SuccessViewController.swift */; };
+		47027A90276A2764004D1D18 /* HomeViewController+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47027A8F276A2764004D1D18 /* HomeViewController+Network.swift */; };
+		47027A94276A27DE004D1D18 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47027A93276A27DE004D1D18 /* HomeViewModel.swift */; };
+		47027A96276A295A004D1D18 /* HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47027A95276A295A004D1D18 /* HomeViewProtocol.swift */; };
+		47027A99276A2AAA004D1D18 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47027A98276A2AAA004D1D18 /* BaseViewController.swift */; };
+		47027A9C276A2D6B004D1D18 /* HomeViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47027A9B276A2D6B004D1D18 /* HomeViewController+Navigation.swift */; };
 		47EF44B7274B84E300D159ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF44B6274B84E300D159ED /* AppDelegate.swift */; };
-		47EF44B9274B84E300D159ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF44B8274B84E300D159ED /* SceneDelegate.swift */; };
-		47EF44BB274B84E300D159ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF44BA274B84E300D159ED /* ViewController.swift */; };
-		47EF44BE274B84E300D159ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EF44BC274B84E300D159ED /* Main.storyboard */; };
+		47EF44BB274B84E300D159ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF44BA274B84E300D159ED /* HomeViewController.swift */; };
 		47EF44C0274B84E600D159ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF44BF274B84E600D159ED /* Assets.xcassets */; };
 		47EF44C3274B84E600D159ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EF44C1274B84E600D159ED /* LaunchScreen.storyboard */; };
+		47EF44CB274B868500D159ED /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF44CA274B868500D159ED /* NetworkController.swift */; };
+		47EF44D1274B8CBA00D159ED /* BitcoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF44D0274B8CBA00D159ED /* BitcoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47027A8B276A1F45004D1D18 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		47027A8F276A2764004D1D18 /* HomeViewController+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Network.swift"; sourceTree = "<group>"; };
+		47027A93276A27DE004D1D18 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		47027A95276A295A004D1D18 /* HomeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocol.swift; sourceTree = "<group>"; };
+		47027A98276A2AAA004D1D18 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		47027A9B276A2D6B004D1D18 /* HomeViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Navigation.swift"; sourceTree = "<group>"; };
 		47EF44B3274B84E300D159ED /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47EF44B6274B84E300D159ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47EF44B8274B84E300D159ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47EF44BA274B84E300D159ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		47EF44BD274B84E300D159ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47EF44BA274B84E300D159ED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		47EF44BF274B84E600D159ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47EF44C2274B84E600D159ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47EF44C4274B84E600D159ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EF44CA274B868500D159ED /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		47EF44D0274B8CBA00D159ED /* BitcoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47027A8D276A2704004D1D18 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47027A9A276A2AB5004D1D18 /* Model */,
+				47027A92276A27CA004D1D18 /* ViewModel */,
+				47027A91276A27C1004D1D18 /* Controller */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		47027A8E276A2711004D1D18 /* NetworkController */ = {
+			isa = PBXGroup;
+			children = (
+				47EF44CA274B868500D159ED /* NetworkController.swift */,
+			);
+			path = NetworkController;
+			sourceTree = "<group>";
+		};
+		47027A91276A27C1004D1D18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47EF44BA274B84E300D159ED /* HomeViewController.swift */,
+				47027A8F276A2764004D1D18 /* HomeViewController+Network.swift */,
+				47027A9B276A2D6B004D1D18 /* HomeViewController+Navigation.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		47027A92276A27CA004D1D18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				47027A95276A295A004D1D18 /* HomeViewProtocol.swift */,
+				47027A93276A27DE004D1D18 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		47027A97276A2A9F004D1D18 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				47027A98276A2AAA004D1D18 /* BaseViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		47027A9A276A2AB5004D1D18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47EF44D0274B8CBA00D159ED /* BitcoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47027A9D276A2E17004D1D18 /* SuccessViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47027A8B276A1F45004D1D18 /* SuccessViewController.swift */,
+			);
+			path = SuccessViewController;
+			sourceTree = "<group>";
+		};
 		47EF44AA274B84E300D159ED = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				47EF44B6274B84E300D159ED /* AppDelegate.swift */,
-				47EF44B8274B84E300D159ED /* SceneDelegate.swift */,
-				47EF44BA274B84E300D159ED /* ViewController.swift */,
-				47EF44BC274B84E300D159ED /* Main.storyboard */,
+				47027A97276A2A9F004D1D18 /* BaseController */,
+				47027A8E276A2711004D1D18 /* NetworkController */,
+				47027A8D276A2704004D1D18 /* HomeViewController */,
+				47027A9D276A2E17004D1D18 /* SuccessViewController */,
 				47EF44BF274B84E600D159ED /* Assets.xcassets */,
 				47EF44C1274B84E600D159ED /* LaunchScreen.storyboard */,
 				47EF44C4274B84E600D159ED /* Info.plist */,
@@ -127,7 +201,6 @@
 			files = (
 				47EF44C3274B84E600D159ED /* LaunchScreen.storyboard in Resources */,
 				47EF44C0274B84E600D159ED /* Assets.xcassets in Resources */,
-				47EF44BE274B84E300D159ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47EF44BB274B84E300D159ED /* ViewController.swift in Sources */,
+				47EF44BB274B84E300D159ED /* HomeViewController.swift in Sources */,
 				47EF44B7274B84E300D159ED /* AppDelegate.swift in Sources */,
-				47EF44B9274B84E300D159ED /* SceneDelegate.swift in Sources */,
+				47027A94276A27DE004D1D18 /* HomeViewModel.swift in Sources */,
+				47027A90276A2764004D1D18 /* HomeViewController+Network.swift in Sources */,
+				47EF44D1274B8CBA00D159ED /* BitcoinModel.swift in Sources */,
+				47027A99276A2AAA004D1D18 /* BaseViewController.swift in Sources */,
+				47027A8C276A1F45004D1D18 /* SuccessViewController.swift in Sources */,
+				47027A9C276A2D6B004D1D18 /* HomeViewController+Navigation.swift in Sources */,
+				47EF44CB274B868500D159ED /* NetworkController.swift in Sources */,
+				47027A96276A295A004D1D18 /* HomeViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47EF44BC274B84E300D159ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47EF44BD274B84E300D159ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		47EF44C1274B84E600D159ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +366,6 @@
 				INFOPLIST_FILE = Networking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +393,6 @@
 				INFOPLIST_FILE = Networking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
